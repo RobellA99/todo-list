@@ -1,1 +1,8 @@
 @use "./styles/partials/resets" as *;
+
+.itemcard {
+  background-color: grey;
+  height: 50vh;
+  margin: 1rem 2rem 0;
+  padding: 1rem;
+}
