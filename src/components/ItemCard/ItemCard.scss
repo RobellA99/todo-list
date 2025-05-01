@@ -5,10 +5,22 @@
 
   &__container {
     padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
   }
 
   &__title {
     margin: 0;
     font-size: 1rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+  }
+
+  &__info {
+    margin: 0;
   }
 }
